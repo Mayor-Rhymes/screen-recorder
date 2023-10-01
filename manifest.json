@@ -1,0 +1,22 @@
+{
+  "name": "HelpMeOut",
+  "version": "1.0.0",
+  "description": "Record user screen and save the record",
+  "author": "Olakunle Raheem",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "icons": {
+    "128": "/assets/images/logo-display.png",
+    "48": "/assets/images/logo-display.png",
+    "16": "/assets/images/logo-display.png"
+  },
+  "action": {
+    "default_popup": "html/index.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "host_permissions": ["http://*/", "https://*/"]
+}

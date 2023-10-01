@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../assets/styles.css" type="text/css" rel="stylesheet" />
+    <script src="../js/index.js" defer></script>
+    <title>HelpMeOut</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header start -->
+      <div class="header">
+        <div class="header-cols">
+          <img src="../assets/images/logo.svg" alt="logo" />
+          <p class="header-text">HelpMeOut</p>
+        </div>
+
+        <div class="header-cols">
+          <img
+            src="../assets/images/setting.svg"
+            alt="setting"
+            class="settings-button"
+            style="cursor: pointer"
+          />
+          <img
+            src="../assets/images/close-circle.svg"
+            alt="close"
+            class="close-button"
+            style="cursor: pointer"
+          />
+        </div>
+      </div>
+
+      <!-- header end -->
+
+      <p class="first-para">
+        This extension helps you record and share help videos with ease
+      </p>
+
+      <!-- icon tabs -->
+      <div class="icon-tabs">
+        <div class="icon-division">
+          <img
+            src="../assets/images/monitor.svg"
+            alt="monitor"
+            class="icon-size"
+          />
+          <p style="color: grey">Full screen</p>
+        </div>
+
+        <div class="icon-division">
+          <img
+            src="../assets/images/current_tab.svg"
+            alt="video-camera"
+            class="icon-size"
+          />
+          <p>Current Tab</p>
+        </div>
+      </div>
+
+      <!-- icon tabs end -->
+
+      <!-- setters -->
+
+      <div class="setter">
+        <div class="desc-side">
+          <img src="../assets/images/video-camera.svg" alt="video-camera" />
+          <p>Camera</p>
+        </div>
+        <!-- switch -->
+        <label class="switch">
+          <input type="checkbox" value="video" class="videoSelect" checked/>
+          <span class="slider round"></span>
+        </label>
+        <!-- switch -->
+      </div>
+
+      <div class="setter">
+        <div class="desc-side">
+          <img src="../assets/images/microphone.svg" alt="microphone" />
+          <p>Audio</p>
+        </div>
+        <!-- switch -->
+        <label class="switch">
+            <input type="checkbox" value="audio" class="audioSelect" checked/>
+            <span class="slider round"></span>
+          </label>
+        <!-- switch -->
+      </div>
+
+      <button class="record-button">Start Recording</button>
+    </div>
+  </body>
+</html>
